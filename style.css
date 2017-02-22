@@ -1,0 +1,200 @@
+
+
+*,*::before, *:after {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Roboto", Futura, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+section.header {
+  background-color: orange;
+  background: url("images/hero.jpg");
+  background-size: cover;
+  color: #FFFFFF;
+  height: 640px;
+  width: 1190px;
+}
+
+.header-background{
+  background-image: url("http://jeremyabrahams.github.io/mw-project-1/img/hero.jpg");
+width: 100%;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: 15%
+}
+
+img {
+max-width: 100%
+height: auto;
+}
+
+.header-navigation {
+  opacity: 100%;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: "Roboto-medium";
+  letter-spacing: 2px;
+}
+
+.header-navigation ul {
+  float: right;
+  margin: 35px 35px auto auto;
+}
+.header-navigation li {
+  margin-left: 28px;
+  float: left;
+  display: block;
+}
+
+#logo {
+  background:url("images/logo-wtf.png") no-repeat 0 0;
+  background-size: contain;
+  width: 157px;
+  height: 100px;
+  display: block;
+  top: 18px;
+  left: 34px;
+  position: relative;
+}
+
+#line {
+  background:url("images/divider.png") no-repeat 0 0;
+  background-size: contain;
+  width: 600px;
+  height: 100px;
+  display: block;
+  top: 0px;
+  right:0px;
+  bottom: 127px;
+  left:300px;
+  position: relative;
+}
+
+.section {}
+
+.title {
+  color: #FFFFFF 100%;
+  opacity: 100%;
+  font-size: 92px;
+  font-weight: lighter;
+  line: 107px;
+  font-family: "Roboto-thin";
+  text-align: center;
+}
+
+.subtitle {
+  color: #FFFFFF 100%;
+  opacity: 100%;
+  font-size: 24px;
+  line: 28px;
+  font-family: "Roboto-thin";
+  text-align: center;
+}
+
+.intro-text {
+  color: #A9A9A9;
+  opacity: 100%;
+  font-size: 30px;
+  line: 72px;
+  line-height: 55px;
+  font-family: "Roboto-thin";
+  text-align: center;
+}
+
+.intro-text {
+  float: center;
+  margin: 150px 150px 150px 150px;
+}
+
+.course-goals {
+  color: #808080;
+  font-size: 28px;
+  font-family: "Roboto-thin";
+  text-align: center;
+  margin-top: 50px;
+}
+
+.columns {
+  position: relative;
+  margin-left: 70px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.column {
+  width: 33%;
+  float: left;
+
+}
+.column-left {
+    width: 33%;
+    left: 0;
+    position: absolute;
+}
+.column-center {
+    width: 34%;
+    margin-left: 33%;
+    position: absolute;
+}
+.column-right {
+    width: 33%;
+    margin-left: 10%;
+    right: -10%;
+    position: absolute;
+}
+
+
+
+.column-bottom-left {
+    width: 33%;
+    left: 0;
+    margin-top: 30%;
+    position: absolute;
+}
+.column-bottom-center {
+    width: 34%;
+    margin-left: 33%;
+    margin-top: 30%;
+    position: absolute;
+}
+.column-bottom-right {
+    width: 33%;
+    right: 0;
+    margin-top: 30%;
+    margin-right: -10%;
+    position: absolute;
+}
+
+
+
+.course-goals_title {
+  color: #808080;
+  opacity: 50%;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Roboto-Bold";
+  text-align: left;
+}
+
+.course-goals_text {
+  color: #808080;
+  opacity: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Roboto-Light";
+  text-align: left;
+}
+
+.intro-divider {
+  display: inline block;
+  // width: 300px;
+  // height: 200px;
+}
+
+}
